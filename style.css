@@ -1,0 +1,106 @@
+/*style.css / banner css*/
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+    font-family: 'Rum Raisin', sans-serif;
+ }
+
+ .container {
+     width: 1000px;
+     height: 1000px;
+     background-image: url(./images/bg_image.jpg);
+     margin: 0 auto;
+     margin-top: 100px;
+     position: relative;
+ }
+
+ .gif{
+     width: 1000px;
+     height: 1000px;
+     background-image: url(./images/bg_snow.gif);
+
+ }
+
+ .box {
+     width: 740px;
+     height: 830px;
+     background: rgba(255, 255, 255, 0.8);
+     border-radius: 49px;
+     position: absolute;
+     left: 130px;
+     top: 85px;    
+     box-sizing: border-box;
+     overflow: hidden;
+}
+
+.title {
+    overflow: hidden;
+}
+
+ .title img{
+    position: absolute;
+ }
+
+ .title .winter {
+     font-size: 100px;
+     display: block;
+     height: 262px;
+     height: 87px;
+     margin-top: 74px;
+     text-align: center;
+     color: #28829E;
+    }
+
+ .title .sale {
+     font-size: 350px;
+     text-align: center;
+     color: #271E8D;
+     animation: sale 3s ease-in-out alternate infinite;
+     animation-delay: 3s;
+ }
+
+ @keyframes sale {
+     0%{
+        transform: rotate(0deg);
+     }
+     50%{
+        transform: rotate(3deg);
+     }
+     100%{
+        color: #D82014;
+        transform: rotate(0deg);
+     }
+ }
+
+ .botton {
+     width: 668px;
+     height: 163px;
+     background: #271E8D;
+     text-align: center;
+     margin: 0 auto;
+     box-sizing: border-box;
+     margin-bottom: 94px;
+     animation: box 3s ease-in-out ;
+ }
+
+ @keyframes box {
+     0% {
+         transform: translateX(2000px);
+     }
+ }
+
+ .botton p {
+     font-size: 90px;
+     color: #fff;
+ }
+
+ .botton span {
+     font-size: 140px;
+     margin-left: 44px;
+     margin-right: 44px;
+     color: #ff0000;
+     text-shadow: #fff 3px 3px;
+ }
