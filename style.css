@@ -8,6 +8,10 @@
     font-family: 'Rum Raisin', sans-serif;
  }
 
+ a {
+     text-decoration: none;
+ }
+
  .container {
      width: 1000px;
      height: 1000px;
@@ -115,12 +119,21 @@
      }
  }
 
- .botton p {
+a .botton:hover span {
+     color: #fff;
+     text-shadow: #ff0000 3px 3px;
+} 
+
+a .botton:hover {
+    background-color: #28829E;
+}
+
+.botton p {
      font-size: 90px;
      color: #fff;
  }
 
- .botton span {
+.botton span {
      font-size: 140px;
      margin-left: 44px;
      margin-right: 44px;
