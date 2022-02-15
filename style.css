@@ -42,7 +42,6 @@
 
  .title img{
     position: absolute;
-    
     animation: icon 3s linear infinite;
     animation-direction: alternate;
  }
@@ -51,8 +50,11 @@
     top: 30px;
  }
  .title .snow {
-     right: 10px;
+     right: 50px;
      top: 40px;
+     width: 80px;
+     animation: icon 4s linear infinite;
+     animation-direction: alternate;
  }
 
  @keyframes icon {
